@@ -18,6 +18,8 @@ To run the script via SSH or task scheduler
     curl -fsSL https://raw.githubusercontent.com/ohyeah521/MailPlus-Server/main/activated.sh | bash
     ```
 
+
+
 4. Forcibly create a storage pool on a disk type that DSM does not support (e.g., Hyper-V virtual disks)
     ```bash
     curl -fsSL https://raw.githubusercontent.com/rrorg/rr-tools/main/forcemount -o /root/forcemount && chmod +x /root/forcemount
