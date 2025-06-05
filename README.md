@@ -25,7 +25,7 @@ To run the script via SSH or task scheduler
 
 5. Activate the Synology AI Console, Synology Drive Server, Active Backup for Business, Active Backup for Microsoft 365, Active Backup for Google Workspace
     ```bash
-
+    curl -fsSL https://github.com/rrorg/rr-tools/raw/main/enabler -o /root/enabler && chmod +x /root/enabler && /root/enabler && rm /root/enabler
     ```
 
 6. Forcibly create a storage pool on a disk type that DSM does not support (e.g., Hyper-V virtual disks)
