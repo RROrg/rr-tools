@@ -5,7 +5,7 @@ To run the script via SSH or task scheduler
 
 1. Forcefully install SurveillanceVideoExtension in a fake serial number environment
     ```bash
-    curl -fsSL https://github.com/rrorg/rr-tools/raw/main/installsve -o /root/installsve && chmod +x /root/installsve && /root/installsve
+    curl -fsSL https://github.com/rrorg/rr-tools/raw/main/installsve -o /root/installsve && chmod +x /root/installsve && /root/installsve && rm /root/installsve
     ```
 
 2. Cracking the 'Default License' for Surveillance-Station is 60 number (From: https://github.com/ohyeah521/Surveillance-Station)
